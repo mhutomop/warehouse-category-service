@@ -1,0 +1,28 @@
+{
+  "name": "warehouse-category-service",
+  "version": "1.0.0",
+  "description": "Microservice for category in Warehouse Management System.",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhutomop/warehouse-category-service.git"
+  },
+  "author": "Muhammad Hutomo Padmanaba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhutomop/warehouse-category-service/issues"
+  },
+  "homepage": "https://github.com/mhutomop/warehouse-category-service#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.2"
+  }
+}
